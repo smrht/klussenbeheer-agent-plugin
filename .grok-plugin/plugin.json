@@ -1,0 +1,15 @@
+{
+  "name": "klussenbeheer",
+  "version": "1.0.0",
+  "description": "Find jobs and customers, view your schedule, and add job notes using your existing Klussenbeheer account. Choose your company before each action. Changes require your confirmation and follow your existing account permissions. Technicians only access their assigned jobs. This plugin does not sell subscriptions or process payments.",
+  "author": {
+    "name": "Samautomation",
+    "url": "https://samdesk.nl/",
+    "email": "support@samdesk.nl"
+  },
+  "homepage": "https://samdesk.nl/plugin/",
+  "repository": "https://github.com/smrht/klussenbeheer-agent-plugin",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

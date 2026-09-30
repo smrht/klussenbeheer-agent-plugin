@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "klussenbeheer",
+  "version": "1.0.0",
+  "description": "Find jobs and customers, view your schedule, and add job notes using your existing Klussenbeheer account. Choose your company before each action. Changes require your confirmation and follow your existing account permissions. Technicians only access their assigned jobs. This plugin does not sell subscriptions or process payments.",
+  "author": {
+    "name": "Samautomation",
+    "url": "https://samdesk.nl/",
+    "email": "support@samdesk.nl"
+  },
+  "homepage": "https://samdesk.nl/plugin/",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Klussenbeheer",
+        "shortDescription": "Manage jobs and schedules",
+        "longDescription": "Find jobs and customers, view your schedule, and add job notes using your existing Klussenbeheer account. Choose your company before each action. Changes require your confirmation and follow your existing account permissions. Technicians only access their assigned jobs. This plugin does not sell subscriptions or process payments.",
+        "developerName": "Samautomation",
+        "category": "Business & Operations",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://samdesk.nl/plugin/",
+        "supportURL": "https://samdesk.nl/nl/contact/",
+        "privacyPolicyURL": "https://samdesk.nl/plugin/privacy/",
+        "termsOfServiceURL": "https://samdesk.nl/nl/terms-of-service/",
+        "defaultPrompt": [
+          "Welke klussen staan er deze week gepland?",
+          "Zoek mijn klus voor het plaatsen van een keuken.",
+          "Help mij een notitie aan een klus toe te voegen."
+        ],
+        "brandColor": "#B45309",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png"
+      },
+      "onboardingSkill": "./skills/klussenbeheer/SKILL.md",
+      "publication": {
+        "release_notes": "Initial release: account connection, job and customer search, schedule and team access, and confirmed job updates with existing company permissions."
+      }
+    }
+  },
+  "repository": "https://github.com/smrht/klussenbeheer-agent-plugin",
+  "license": "MIT"
+}

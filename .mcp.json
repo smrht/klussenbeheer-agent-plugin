@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "klussenbeheer": {
+      "type": "http",
+      "url": "https://samdesk.nl/mcp"
+    }
+  }
+}

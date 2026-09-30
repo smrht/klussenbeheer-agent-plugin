@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.smrht/klussenbeheer",
+  "title": "Klussenbeheer",
+  "description": "Manage jobs, schedules and confirmed job notes with existing company permissions.",
+  "version": "1.0.0",
+  "websiteUrl": "https://samdesk.nl/plugin/",
+  "repository": {
+    "url": "https://github.com/smrht/klussenbeheer-agent-plugin",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://samdesk.nl/mcp"
+    }
+  ]
+}
